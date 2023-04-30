@@ -23,4 +23,5 @@ P.S.:
 2. Чтобы вводить расчетную дату вручную, заменяем переменную ddf на ручной ввод:
 
 now = input().split('.')
+
 ddf = datetime.date(int(now[2]), int(now[1]), int(now[0]))
